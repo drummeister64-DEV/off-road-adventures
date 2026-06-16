@@ -1,0 +1,42 @@
+[
+  {
+    "id": "v1",
+    "title": "Mt. Lemmon Control Road — Full Run",
+    "description": "Complete footage from our October climb up the Control Road (FR 38), including the Stairsteps crux and overnight camp at 8,200 ft.",
+    "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+    "date": "2024-10-18",
+    "tags": ["Mt. Lemmon", "Arizona", "Jeep"],
+    "tripSlug": "mt-lemmon-skyline-run"
+  },
+  {
+    "id": "v2",
+    "title": "Apache Trail Full Drive — Fish Creek Hill to Canyon Lake",
+    "description": "One camera, no commentary. Raw driving footage of the Apache Trail's most dramatic section — the Fish Creek Hill cliff descent and the run to Canyon Lake.",
+    "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+    "date": "2024-11-10",
+    "tags": ["Apache Trail", "Arizona", "Canyon"],
+    "tripSlug": "apache-trail-canyon-lake"
+  },
+  {
+    "id": "v3",
+    "title": "Mogollon Rim Traverse — 2 Days on the Edge",
+    "description": "Timelapse and trail footage from our two-day rim run along FR 300, catching the September aspens and rim-edge sunsets.",
+    "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+    "date": "2024-09-15",
+    "tags": ["Mogollon Rim", "Arizona", "Overlanding"],
+    "tripSlug": "mogollon-rim-overlook-traverse"
+  },
+  {
+    "id": "v4",
+    "title": "Gear Talk: What's Actually in the Recovery Kit",
+    "description": "A real-world breakdown of what we carry for self-recovery — kinetic rope, hi-lift, traction boards, and what's gotten the most actual use over 40+ trail days.",
+    "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+    "date": "2024-08-22",
+    "tags": ["Gear", "Recovery", "Tips"],
+    "tripSlug": null
+  }
+]

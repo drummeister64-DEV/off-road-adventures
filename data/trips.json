@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "slug": "mt-lemmon-overland-run",
+    "title": "Mt. Lemmon Overland Run",
+    "date": "2026-06-12",
+    "location": "Santa Catalina Mountains, AZ",
+    "summary": "A scenic climb up Mt. Lemmon via Catalina Hwy, trading the desert floor for dense ponderosa pines and sweeping views over Tucson.",
+    "coverImage": "/ml_11.jpg",
+    "coverImageBlur": "",
+    "tags": ["Arizona", "Mt. Lemmon", "Jeep", "Camping", "Pines"],
+    "stats": {
+      "miles": 42,
+      "elevationGain": 6800,
+      "difficulty": "Easy",
+      "duration": "2-Nights",
+      "vehicle": "Jeep Wrangler JL Rubicon"
+    },
+    "body": "We staged our trip at the base of Mt. Lemmon along Catalina Highway, Jeep half doors installed and our overland trailer in tow.\n\nThe lower section of the mountain is classic Sonoran Desert: rocky terrain, towering saguaros, and temperatures that feel much like the valley below. As we passed the familiar shooting pullout, the crack of gunfire echoed off the canyon walls. The road climbs steadily toward Windy Point Vista, where sweeping views stretch across the desert and dramatic rock formations attract climbers from around the region.\n\nNear Rose Canyon Lake, the landscape begins its transformation. Ponderosa pines replace cactus, the air grows noticeably cooler, and the scent of the forest drifts through the open windows. By the time you reach elevations around 8,300 feet, you'll likely find your arm resting outside the window, enjoying the crisp mountain air.\n\nBeyond the Palisades Visitor Center at Mile Marker 18, Bear Wallow Road branches off to the right. From there, numerous dispersed campsites can be found tucked among the trees on both sides of the road. We have our favorites, but part of the adventure is discovering your own.",
+    "photos": [
+      {
+        "id": "p1",
+        "url": "/ml_1.jpg",
+        "caption": "Camp 1 Setup with Old Glory",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": "p2",
+        "url": "/ml_2.jpg",
+        "caption": "Jeep Rubi in the Pines",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "id": "p3",
+        "url": "/ml_3.jpg",
+        "caption": "Camp 2 in Action",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": "p4",
+        "url": "/ml_4.jpg",
+        "caption": "Camp 2 with Lights",
+        "width": 1200,
+        "height": 675
+      },
+      {
+        "id": "p5",
+        "url": "/ml_5.jpg",
+        "caption": "Camp 1 with Lights",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": "p6",
+        "url": "/ml_6.jpg",
+        "caption": "Sunset after day one camp setup",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": "p7",
+        "url": "/ml_7.jpg",
+        "caption": "Sunset with City Lights at 8300 FT.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": "p8",
+        "url": "/ml_8.jpg",
+        "caption": "Camp 1 with Solar",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": "p9",
+        "url": "/ml_9.jpg",
+        "caption": "Pink Sunset Night 2",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": "p10",
+        "url": "/ml_10.jpg",
+        "caption": "Propane Firepit",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": "p11",
+        "url": "/ml_11.jpg",
+        "caption": "Sunset Night 2 with City Lights",
+        "width": 1200,
+        "height": 800
+      }	
+    ],
+    "videoEmbed": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "videoTitle": "Mt. Lemmon — Full Run"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir=false --import-alias=\"@/*\" --no-turbopack)",
+      "Bash(npm --version)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/davidtyler/**)",
+      "Bash(export CLAUDE_CODE_TMPDIR=\"$HOME/Downloads/claude-tmp\")",
+      "Bash(mkdir -p /Users/davidtyler/Downloads/claude-tmp)",
+      "Bash(ls ~/.nvm/)",
+      "Bash(ls ~/.volta/)",
+      "Bash(echo \"no nvm/volta\")",
+      "Read(//usr/bin/**)",
+      "Bash(/usr/local/share/nvm/nvm.sh)",
+      "Bash(ls /pkg/env/global/bin/ 2>/dev/null | head -20)",
+      "Bash(ls /private/tmp/claude-501/-Users-davidtyler-Google-Drive-Off-Road-Adventures/ 2>/dev/null)",
+      "Bash(mdfind -name node)"
+    ]
+  }
+}
