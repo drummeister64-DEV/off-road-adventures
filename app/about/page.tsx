@@ -39,8 +39,8 @@ export default function AboutPage() {
       {/* Header */}
       <div className="relative h-64 md:h-80 overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1533240332313-0db49b459ad6?w=1600&q=80"
-          alt="Off-road camp at sunset"
+          src="/about.jpg"
+          alt="Overland trailer camp setup in the pines"
           fill
           className="object-cover opacity-50"
           sizes="100vw"
