@@ -143,8 +143,7 @@ export default function HomePage() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <h2 className="section-heading mb-4">Watch It Unfold</h2>
           <p className="text-slate-400 max-w-lg mx-auto mb-8">
-            Raw trail footage, gear reviews, and timelapse sequences from every
-            adventure — no narration, just the sound of the terrain.
+            From rocky trails to star-filled skies, explore every adventure through raw trail footage and breathtaking time-lapse sequences.
           </p>
           <Link
             href="/videos"
