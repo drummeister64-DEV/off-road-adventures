@@ -28,9 +28,9 @@ export default function HomePage() {
             sizes="100vw"
           />
           {/* Multi-stop gradient — readable text + rugged feel */}
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-transparent to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/60 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/25 to-transparent md:via-slate-950/40" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-transparent md:from-black/70" />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/30 via-transparent to-transparent md:from-slate-950/60" />
         </div>
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 md:pb-28">
