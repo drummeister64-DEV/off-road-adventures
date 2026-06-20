@@ -13,6 +13,10 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const trips = getAllTrips();
   const latestTrips = trips.slice(0, 3);
+  const totalMiles = trips.reduce((sum, trip) => sum + trip.stats.miles, 0);
+  const stateCount = new Set(
+    trips.map((trip) => trip.location.split(",").pop()?.trim())
+  ).size;
 
   return (
     <>
@@ -83,8 +87,8 @@ export default function HomePage() {
           <div className="grid grid-cols-3 divide-x divide-slate-800/60 text-center">
             {[
               { value: trips.length.toString() + "+", label: "Trips Documented" },
-              { value: "167+", label: "Trail Miles" },
-              { value: "3", label: "States Covered" },
+              { value: totalMiles.toString() + "+", label: "Trail Miles" },
+              { value: stateCount.toString(), label: "States Covered" },
             ].map((stat) => (
               <div key={stat.label} className="px-4">
                 <p className="text-2xl md:text-3xl font-bold text-earth-400">{stat.value}</p>
