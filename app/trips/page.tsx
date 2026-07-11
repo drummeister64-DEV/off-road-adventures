@@ -22,7 +22,7 @@ export default function TripsPage() {
             src="/hero.png"
             alt="Arizona overlanding trail"
             fill
-            className="object-cover object-top"
+            className="object-cover object-[center_30%]"
             priority
             sizes="100vw"
           />

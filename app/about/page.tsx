@@ -43,7 +43,7 @@ export default function AboutPage() {
             src="/hero.png"
             alt="Arizona desert sunset panorama"
             fill
-            className="object-cover object-top"
+            className="object-cover object-[center_30%]"
             sizes="100vw"
             priority
           />
@@ -97,7 +97,7 @@ export default function AboutPage() {
             {gear.map((section) => (
               <div
                 key={section.category}
-                className="rounded-xl border border-orange-950/40 bg-black/40 p-5"
+                className="rounded-xl border border-orange-800/30 bg-white/5 p-5"
               >
                 <h3 className="text-xs font-bold uppercase tracking-widest text-orange-500 mb-4">
                   {section.category}
