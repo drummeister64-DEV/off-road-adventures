@@ -24,7 +24,7 @@ export default function HomePage() {
       <section className="relative h-screen min-h-[600px] flex items-end">
         <div className="absolute inset-0">
           <Image
-            src="/hero.png"
+            src="https://res.cloudinary.com/nooluux8/image/upload/hero.png"
             alt="Ponderosa pine forest at dusk in the Arizona mountains"
             fill
             className="object-cover object-center"

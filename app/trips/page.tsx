@@ -19,7 +19,7 @@ export default function TripsPage() {
       <div className="relative h-64 md:h-80 flex items-end">
         <div className="absolute inset-0">
           <Image
-            src="/hero.png"
+            src="https://res.cloudinary.com/nooluux8/image/upload/hero.png"
             alt="Arizona overlanding trail"
             fill
             className="object-cover object-[center_30%]"
