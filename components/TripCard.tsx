@@ -13,7 +13,7 @@ export default function TripCard({ trip, priority = false }: TripCardProps) {
   return (
     <Link
       href={`/trips/${trip.slug}`}
-      className="group block rounded-xl overflow-hidden bg-[#1a0e0a]/80 border border-orange-950/40 hover:border-orange-700/60 transition-all duration-300 hover:shadow-xl hover:shadow-black/40 hover:-translate-y-0.5"
+      className="group block rounded-xl overflow-hidden bg-black/40 border border-orange-950/40 hover:border-orange-700/60 transition-all duration-300 hover:shadow-xl hover:shadow-black/40 hover:-translate-y-0.5"
     >
       {/* Cover image */}
       <div className="relative aspect-[16/10] overflow-hidden">

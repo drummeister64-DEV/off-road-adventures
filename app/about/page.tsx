@@ -47,7 +47,7 @@ export default function AboutPage() {
             sizes="100vw"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#1a0818] via-[#1a0818]/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-transparent" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 pt-20">
@@ -60,7 +60,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-b from-[#1a0818] to-black">
+      <div className="bg-gradient-to-b from-black to-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Main copy */}
@@ -97,7 +97,7 @@ export default function AboutPage() {
             {gear.map((section) => (
               <div
                 key={section.category}
-                className="rounded-xl border border-orange-950/40 bg-[#1a0e0a]/80 p-5"
+                className="rounded-xl border border-orange-950/40 bg-black/40 p-5"
               >
                 <h3 className="text-xs font-bold uppercase tracking-widest text-orange-500 mb-4">
                   {section.category}

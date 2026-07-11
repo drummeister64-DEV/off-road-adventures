@@ -26,7 +26,7 @@ export default function TripsPage() {
             priority
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#1a0818] via-[#1a0818]/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-transparent" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 pt-20">
@@ -42,7 +42,7 @@ export default function TripsPage() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-b from-[#1a0818] to-black">
+      <div className="bg-gradient-to-b from-black to-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <TripsClient trips={trips} tags={tags} />
         </div>

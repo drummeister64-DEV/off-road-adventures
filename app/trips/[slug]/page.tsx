@@ -44,7 +44,7 @@ export default function TripDetailPage({ params }: Props) {
           sizes="100vw"
           {...(trip.coverImageBlur ? { placeholder: "blur" as const, blurDataURL: trip.coverImageBlur } : {})}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#1a0818] via-[#1a0818]/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-transparent" />
 
         {/* Breadcrumb */}
@@ -87,7 +87,7 @@ export default function TripDetailPage({ params }: Props) {
         </div>
       </div>
 
-      <div className="bg-gradient-to-b from-[#1a0818] to-black">
+      <div className="bg-gradient-to-b from-black to-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {/* Main content */}
@@ -115,7 +115,7 @@ export default function TripDetailPage({ params }: Props) {
             <div className="lg:col-span-1">
               <div className="sticky top-24 space-y-4">
                 {/* Stats card */}
-                <div className="rounded-xl border border-orange-950/40 bg-[#1a0e0a]/80 p-5">
+                <div className="rounded-xl border border-orange-950/40 bg-black/40 p-5">
                   <h3 className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-4">
                     Trip Stats
                   </h3>
@@ -185,7 +185,7 @@ export default function TripDetailPage({ params }: Props) {
                 </div>
 
                 {/* Tags */}
-                <div className="rounded-xl border border-orange-950/40 bg-[#1a0e0a]/80 p-5">
+                <div className="rounded-xl border border-orange-950/40 bg-black/40 p-5">
                   <h3 className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">
                     Tags
                   </h3>
