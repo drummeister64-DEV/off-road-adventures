@@ -28,7 +28,7 @@ export default function TripsClient({ trips, tags }: TripsClientProps) {
           onClick={() => setSelectedTag(null)}
           className={`px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wide border transition-all ${
             !selectedTag
-              ? "bg-earth-700 text-earth-100 border-earth-600"
+              ? "bg-orange-800 text-orange-100 border-orange-700"
               : "bg-transparent text-slate-400 border-slate-700 hover:border-slate-500 hover:text-slate-300"
           }`}
         >
@@ -42,7 +42,7 @@ export default function TripsClient({ trips, tags }: TripsClientProps) {
               onClick={() => setSelectedTag(tag === selectedTag ? null : tag)}
               className={`px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wide border transition-all ${
                 selectedTag === tag
-                  ? "bg-earth-700 text-earth-100 border-earth-600"
+                  ? "bg-orange-800 text-orange-100 border-orange-700"
                   : "bg-transparent text-slate-400 border-slate-700 hover:border-slate-500 hover:text-slate-300"
               }`}
             >

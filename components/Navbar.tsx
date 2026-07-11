@@ -39,10 +39,10 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
-            <span className="text-earth-400 text-xl">&#9651;</span>
+            <span className="text-orange-400 text-xl">&#9651;</span>
             <span className="font-bold text-white tracking-wide text-sm uppercase">
               AZ Overland{" "}
-              <span className="text-earth-400">Adventures</span>
+              <span className="text-orange-400">Adventures</span>
             </span>
           </Link>
 
@@ -54,7 +54,7 @@ export default function Navbar() {
                 href={l.href}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)] ${
                   pathname === l.href
-                    ? "text-earth-300 bg-earth-950/60"
+                    ? "text-orange-400 bg-orange-950/40"
                     : "text-slate-300 hover:text-white hover:bg-slate-800/50"
                 }`}
               >
@@ -102,7 +102,7 @@ export default function Navbar() {
                 href={l.href}
                 className={`px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
                   pathname === l.href
-                    ? "text-earth-300 bg-earth-950/60"
+                    ? "text-orange-400 bg-orange-950/40"
                     : "text-slate-300 hover:text-white hover:bg-slate-800/50"
                 }`}
               >

@@ -17,7 +17,7 @@
   }
 
   body {
-    @apply bg-slate-950 text-slate-100 antialiased;
+    @apply bg-black text-slate-100 antialiased;
     font-family: var(--font-body);
   }
 
@@ -28,7 +28,7 @@
 
 @layer components {
   .tag-pill {
-    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-earth-900/60 text-earth-300 border border-earth-800/40 hover:bg-earth-800/60 transition-colors;
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-950/60 text-orange-300 border border-orange-900/40 hover:bg-orange-900/60 transition-colors;
   }
 
   .section-heading {

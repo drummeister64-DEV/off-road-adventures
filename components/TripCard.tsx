@@ -13,7 +13,7 @@ export default function TripCard({ trip, priority = false }: TripCardProps) {
   return (
     <Link
       href={`/trips/${trip.slug}`}
-      className="group block rounded-xl overflow-hidden bg-slate-900/60 border border-slate-800/40 hover:border-earth-700/60 transition-all duration-300 hover:shadow-xl hover:shadow-black/40 hover:-translate-y-0.5"
+      className="group block rounded-xl overflow-hidden bg-[#1a0e0a]/80 border border-orange-950/40 hover:border-orange-700/60 transition-all duration-300 hover:shadow-xl hover:shadow-black/40 hover:-translate-y-0.5"
     >
       {/* Cover image */}
       <div className="relative aspect-[16/10] overflow-hidden">
@@ -39,13 +39,13 @@ export default function TripCard({ trip, priority = false }: TripCardProps) {
         {/* Stats strip at bottom of image */}
         <div className="absolute bottom-3 left-3 flex items-center gap-3 text-xs text-slate-300">
           <span className="flex items-center gap-1">
-            <svg className="w-3.5 h-3.5 text-earth-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-3.5 h-3.5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
             </svg>
             {trip.stats.miles} mi
           </span>
           <span className="flex items-center gap-1">
-            <svg className="w-3.5 h-3.5 text-earth-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-3.5 h-3.5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
             </svg>
             {trip.stats.elevationGain.toLocaleString()} ft
@@ -56,13 +56,13 @@ export default function TripCard({ trip, priority = false }: TripCardProps) {
       {/* Card body */}
       <div className="p-4">
         <div className="flex items-start justify-between gap-2 mb-1">
-          <h3 className="font-bold text-white text-base leading-snug group-hover:text-earth-300 transition-colors">
+          <h3 className="font-bold text-white text-base leading-snug group-hover:text-orange-300 transition-colors">
             {trip.title}
           </h3>
         </div>
 
         <p className="text-xs text-slate-500 mb-2 flex items-center gap-1">
-          <svg className="w-3 h-3 text-earth-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-3 h-3 text-orange-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
           </svg>

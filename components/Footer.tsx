@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-slate-800/60 bg-slate-950 mt-24">
+    <footer className="border-t border-orange-950/30 bg-black mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-earth-400 text-lg">&#9651;</span>
+              <span className="text-orange-400 text-lg">&#9651;</span>
               <span className="font-bold text-white text-sm uppercase tracking-wide">
                 AZ Overland Adventures
               </span>

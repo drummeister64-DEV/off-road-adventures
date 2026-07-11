@@ -31,32 +31,31 @@ export default function HomePage() {
             priority
             sizes="100vw"
           />
-          {/* Multi-stop gradient — readable text + rugged feel */}
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/25 to-transparent md:via-slate-950/40" />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-transparent md:from-black/70" />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/30 via-transparent to-transparent md:from-slate-950/60" />
+          {/* Minimal gradient — just enough for text legibility */}
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/10 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-transparent" />
         </div>
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 md:pb-28">
           <div className="max-w-2xl">
-            <p className="text-earth-400 text-xs font-bold uppercase tracking-[0.2em] mb-4">
+            <p className="text-orange-400 text-xs font-bold uppercase tracking-[0.2em] mb-4">
               Arizona Overlanding
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight tracking-tight mb-5">
               Where the
               <br />
-              <span className="text-earth-400">pavement ends</span>,
+              <span className="text-orange-400">pavement ends</span>,
               <br />
               adventure begins.
             </h1>
-            <p className="text-slate-300 text-lg leading-relaxed mb-8 max-w-lg">
+            <p className="text-white text-lg leading-relaxed mb-8 max-w-lg">
               Trip reports, trail notes, and photo documentation from backcountry
               routes across Arizona and the Southwest.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/trips"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-earth-600 hover:bg-earth-500 text-white font-semibold rounded-lg transition-colors shadow-lg shadow-earth-900/40"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-orange-800 hover:bg-orange-700 text-white font-semibold rounded-lg transition-colors shadow-lg shadow-orange-900/40"
               >
                 Browse Trips
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
